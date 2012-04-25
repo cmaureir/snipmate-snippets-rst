@@ -1,0 +1,65 @@
+snippet title
+	${1:Title}
+	======================
+
+snippet stitle
+	${1:Subtitle}
+	----------------------
+
+snippet sstitle
+	${1:Subsubtitle}
+	''''''''''''''''''''''
+
+snippet ssstitle
+	${1:Subsubsubtitle}
+	**********************
+
+snippet sssstitle
+	${1:Subsubsubsubtitle}
+	++++++++++++++++++++++
+
+snippet ref
+	.. _${1:word}: ${2:reference}
+
+snippet lit 
+	.. literalinclude:: ${1:file}
+
+snippet items
+	* ${1:item1}
+	* ${2:item2}
+	* ${3:item3}
+
+snippet ::
+	::
+	
+	    ${1:literalblock}
+
+snippet gtable
+	+------------+------------+-----------+
+	| ${1:H1}         | ${2:H2}         | ${3:H3}        |
+	+============+============+===========+
+	| ${4:c1}         | ${5:c2}         | ${6:c3}        |
+	+------------+------------+-----------+
+
+snippet stable
+	=======  =======
+	  ${1:A}        ${2:B}
+	=======  =======
+	${3:content}  ${4:content}
+	=======  =======
+
+snippet cit
+	.. [${1:word}] ${2:description}
+
+snippet hyp
+	.. _${1:word}: http://${2:url.com}
+
+snippet img
+	.. image:: ${1:path}
+
+snippet imgc
+	.. image:: ${1:path}
+	    :align: ${2:center}
+	    :width: ${3:200}
+	    :height: ${4:200}
+	    :alt: ${5:caption}
