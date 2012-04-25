@@ -1,22 +1,27 @@
 snippet title
 	${1:Title}
-	======================
+	=====================${2:=}
+	${3:}
 
 snippet stitle
 	${1:Subtitle}
-	----------------------
+	---------------------${2:-}
+	${3:}
 
 snippet sstitle
 	${1:Subsubtitle}
-	''''''''''''''''''''''
+	'''''''''''''''''''''${2:'}
+	${3:}
 
 snippet ssstitle
 	${1:Subsubsubtitle}
-	**********************
+	*********************${2:*}
+	${3:}
 
 snippet sssstitle
 	${1:Subsubsubsubtitle}
-	++++++++++++++++++++++
+	+++++++++++++++++++++${2:+}
+	${3:}
 
 snippet ref
 	.. _${1:word}: ${2:reference}
