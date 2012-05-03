@@ -7,7 +7,7 @@ Description
 
 A set of useful RST snippets,
 if you think that another could be useful too,
-please *Fork* and make a *pull-request*.
+please *Fork* and do a *pull-request*.
 
 Author
 -------
